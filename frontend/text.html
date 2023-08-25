@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Detection</title>
+
+    <link rel="icon" href="./logo.jpg" type="image/icon type">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href = "style.css" rel = "stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4">
+          <div class="col-md-3 mb-2 mb-md-0 ">
+            <a href="/" class="d-inline-flex  text-decoration-none brand-title">
+              AI-VisDetect<img src = "./search.svg" height= "33pxpx">
+            </a>
+          </div>
+    
+          <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+            <li><a href="./index.html" class="nav-link px-2 nav-item">Home</a></li>
+            <li><a href="./image.html" class="nav-link px-2 nav-item">AI Image Detection</a></li>
+            <li><a href="#" class="nav-link px-2 nav-item">AI text Detection</a></li>
+          </ul>
+        </header>
+      </div>
+
+      <div class="container col-xxl-8 px-4 py-5 main border-bottom">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="./aitext.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Using AI generated text</h1>
+            <p class="lead"> While AI can create realistic images and sounds, it may not be able to capture
+                 the nuances and emotions that are often conveyed through traditional art forms. Another potential
+                  disadvantage of AI-generated art is the ethical implications of using machines to create art. Some 
+                  critics argue that using AI to produce art devalues the role of human creativity and skill in the
+                   creation of art, and that it may lead to the automation of other creative fields.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="px-4 py-5 my-5 text-center">
+        <h1 class="display-5 fw-bold">Detect whether the text is real or AI generated</h1>
+        <div class="col-lg-6 mx-auto">
+            <textarea name="textToPredict" cols="50" rows="10" id = "textInput" placeholder = "Enter text to predict whether it is AI generated or not" class = "text-muted"></textarea>
+            <br/>
+            <p class = "textResult"></p>
+            <button type="button" class="btn predict">Predict</button>
+        </div>
+      </div>
+
+</body>
+</html>

@@ -1,0 +1,113 @@
+body{
+    background-color:#313866;
+    color: white;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+.nav-item{
+    color: #8CABFF;
+    font-size: 18px;
+}
+
+.brand-title{
+    color: white;
+    font-size: 24px;
+    font-family: 'Allerta Stencil', sans-serif;
+}
+
+.main{
+    background-color: white;
+    border-radius:3%;
+    width: 80%;
+    margin-left: 10%;
+    color: black;
+
+
+}
+
+h1{
+    color: white;
+    font-size: 72px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-btn{
+    text-decoration:none;
+    color:white
+}
+
+.main-btn:hover{
+    text-decoration: none;
+}
+
+.goto{
+    background-color:#8CABFF;
+}
+
+.myimg{
+    float: right;
+}
+
+.whatdo{
+    display:inline;
+}
+
+.predict{
+    color: white;
+    background-color:#8CABFF;
+    font-size: 20px;
+}
+
+
+/* textarea {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    border: 2px solid #3498db;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.95); /* Adjust opacity to control the lightness */
+    /* color: #333;
+    resize: vertical;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+textarea::placeholder {
+    color: rgba(200, 200, 200, 0.6);
+}
+
+textarea:focus {
+    outline: none;
+    border-color: #ff9900;
+    background-color: rgba(255, 255, 255, 1); 
+} */
+
+textarea {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    background-color: #f6f6f6;
+    color: #333;
+    width: 100%;
+    box-sizing: border-box;
+    resize: none;
+}
+
+textarea::placeholder {
+    color: #aaa;
+}
+
+textarea:focus {
+    outline: none;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+
+
+
